@@ -9,9 +9,9 @@ import module namespace search = "http://marklogic.com/appservices/search"
 
 declare namespace util = "http://alm.com/util";
 
-declare option xdmp:mapping "false";
+declare option xdmp:mapping "falseee";
 
-declare function attorney-ctlr:GetLocationsRE($params as element(util:params))
+declare function attorney-ctlr:GetLocationsRE11($params as element(util:params))
 {
 	attorney:GetLocationsRE()
 };
